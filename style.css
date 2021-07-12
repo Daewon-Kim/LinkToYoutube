@@ -1,0 +1,41 @@
+.button_style {
+  margin: auto; 
+  text-align: center;
+  width: 180px;
+  height: 70px;
+  background-color: red;
+  border-radius: 30px;
+  /*box-shadow: 5px 5px 5px #A9A9A9;*/
+  /*margin: auto; */
+}
+.button_style > a {
+    color: black;
+    display: block;
+    font: italic bold 2em/70px Arial, Helvetica, sans-serif;
+    text-decoration: none;
+}
+a:link {
+  color: red;
+}
+
+/* a 요소가 방문한 링크일 때 */
+a:visited {
+  color: black;
+}
+
+/* a 요소에 마우스가 올라와 있을 때 */
+a:hover {
+  color: white;
+  font-weight: bold;
+  width: 160px;  /*이걸로 버튼 크기랑 마우스 커서 올라와있는 범위 맞추는 거임*/
+  height: 70px;
+}
+
+/* a 요소가 클릭된 상태일 때 */
+a:active {
+  color: blue;
+}
+
+a:focus {
+  color: yellow
+}
